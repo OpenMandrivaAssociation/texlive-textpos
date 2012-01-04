@@ -6,7 +6,7 @@
 # catalog-version 1.7g
 Name:		texlive-textpos
 Version:	1.7g
-Release:	1
+Release:	2
 Summary:	Place boxes at arbitrary positions on the LaTeX page
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/textpos
