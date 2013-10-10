@@ -1,12 +1,12 @@
-# revision 19961
+# revision 28261
 # category Package
 # catalog-ctan /macros/latex/contrib/textpos
-# catalog-date 2010-09-30 15:44:45 +0200
+# catalog-date 2012-06-01 19:23:46 +0200
 # catalog-license gpl
-# catalog-version 1.7g
+# catalog-version 1.7h
 Name:		texlive-textpos
-Version:	1.7g
-Release:	2
+Version:	1.7h
+Release:	1
 Summary:	Place boxes at arbitrary positions on the LaTeX page
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/textpos
@@ -38,7 +38,7 @@ large-format conference posters.
 %{_texmfdistdir}/tex/latex/textpos/textpos.sty
 %doc %{_texmfdistdir}/doc/latex/textpos/LICENCE
 %doc %{_texmfdistdir}/doc/latex/textpos/README
-%doc %{_texmfdistdir}/doc/latex/textpos/VERSION-1.7g
+%doc %{_texmfdistdir}/doc/latex/textpos/VERSION-1.7i
 %doc %{_texmfdistdir}/doc/latex/textpos/examples/README
 %doc %{_texmfdistdir}/doc/latex/textpos/examples/t1.tex
 %doc %{_texmfdistdir}/doc/latex/textpos/examples/t2.tex
@@ -50,7 +50,6 @@ large-format conference posters.
 %doc %{_texmfdistdir}/doc/latex/textpos/examples/t8.tex
 %doc %{_texmfdistdir}/doc/latex/textpos/niepraschk-eso-pic.pdf
 %doc %{_texmfdistdir}/doc/latex/textpos/niepraschk-eso-pic.tex
-%doc %{_texmfdistdir}/doc/latex/textpos/style.css
 %doc %{_texmfdistdir}/doc/latex/textpos/textpos-example.tex
 %doc %{_texmfdistdir}/doc/latex/textpos/textpos.html
 %doc %{_texmfdistdir}/doc/latex/textpos/textpos.pdf
@@ -68,16 +67,3 @@ large-format conference posters.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.7g-2
-+ Revision: 756790
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.7g-1
-+ Revision: 719721
-- texlive-textpos
-- texlive-textpos
-- texlive-textpos
-
