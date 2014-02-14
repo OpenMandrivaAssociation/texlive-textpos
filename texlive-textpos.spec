@@ -1,12 +1,12 @@
-# revision 28261
+# revision 32571
 # category Package
 # catalog-ctan /macros/latex/contrib/textpos
-# catalog-date 2012-06-01 19:23:46 +0200
+# catalog-date 2014-01-04 08:41:38 +0100
 # catalog-license gpl
-# catalog-version 1.7h
+# catalog-version 1.7j
 Name:		texlive-textpos
-Version:	1.7h
-Release:	5
+Version:	1.7j
+Release:	1
 Summary:	Place boxes at arbitrary positions on the LaTeX page
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/textpos
@@ -38,8 +38,8 @@ large-format conference posters.
 %{_texmfdistdir}/tex/latex/textpos/textpos.sty
 %doc %{_texmfdistdir}/doc/latex/textpos/LICENCE
 %doc %{_texmfdistdir}/doc/latex/textpos/README
-%doc %{_texmfdistdir}/doc/latex/textpos/VERSION-1.7i
-%doc %{_texmfdistdir}/doc/latex/textpos/examples/README
+%doc %{_texmfdistdir}/doc/latex/textpos/VERSION-1.7j
+%doc %{_texmfdistdir}/doc/latex/textpos/examples/README-examples
 %doc %{_texmfdistdir}/doc/latex/textpos/examples/t1.tex
 %doc %{_texmfdistdir}/doc/latex/textpos/examples/t2.tex
 %doc %{_texmfdistdir}/doc/latex/textpos/examples/t3.tex
