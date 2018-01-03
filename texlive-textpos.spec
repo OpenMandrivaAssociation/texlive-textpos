@@ -1,12 +1,6 @@
-# revision 32571
-# category Package
-# catalog-ctan /macros/latex/contrib/textpos
-# catalog-date 2014-01-04 08:41:38 +0100
-# catalog-license gpl
-# catalog-version 1.7j
 Name:		texlive-textpos
-Version:	1.7j
-Release:	5
+Version:	1.8
+Release:	1
 Summary:	Place boxes at arbitrary positions on the LaTeX page
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/textpos
@@ -35,28 +29,10 @@ large-format conference posters.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/textpos/textpos.sty
-%doc %{_texmfdistdir}/doc/latex/textpos/LICENCE
-%doc %{_texmfdistdir}/doc/latex/textpos/README
-%doc %{_texmfdistdir}/doc/latex/textpos/VERSION-1.7j
-%doc %{_texmfdistdir}/doc/latex/textpos/examples/README-examples
-%doc %{_texmfdistdir}/doc/latex/textpos/examples/t1.tex
-%doc %{_texmfdistdir}/doc/latex/textpos/examples/t2.tex
-%doc %{_texmfdistdir}/doc/latex/textpos/examples/t3.tex
-%doc %{_texmfdistdir}/doc/latex/textpos/examples/t4.tex
-%doc %{_texmfdistdir}/doc/latex/textpos/examples/t5.tex
-%doc %{_texmfdistdir}/doc/latex/textpos/examples/t6.tex
-%doc %{_texmfdistdir}/doc/latex/textpos/examples/t7.tex
-%doc %{_texmfdistdir}/doc/latex/textpos/examples/t8.tex
-%doc %{_texmfdistdir}/doc/latex/textpos/niepraschk-eso-pic.pdf
-%doc %{_texmfdistdir}/doc/latex/textpos/niepraschk-eso-pic.tex
-%doc %{_texmfdistdir}/doc/latex/textpos/textpos-example.tex
-%doc %{_texmfdistdir}/doc/latex/textpos/textpos.html
-%doc %{_texmfdistdir}/doc/latex/textpos/textpos.pdf
+%{_texmfdistdir}/tex/latex/textpos
+%doc %{_texmfdistdir}/doc/latex/textpos
 #- source
-%doc %{_texmfdistdir}/source/latex/textpos/textpos.drv
-%doc %{_texmfdistdir}/source/latex/textpos/textpos.dtx
-%doc %{_texmfdistdir}/source/latex/textpos/textpos.ins
+%doc %{_texmfdistdir}/source/latex/textpos
 
 #-----------------------------------------------------------------------
 %prep
