@@ -1,6 +1,6 @@
 Name:		texlive-textpos
-Version:	1.8
-Release:	2
+Version:	1.9.1
+Release:	1
 Summary:	Place boxes at arbitrary positions on the LaTeX page
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/textpos
