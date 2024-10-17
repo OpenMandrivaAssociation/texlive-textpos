@@ -3,7 +3,7 @@ Version:	63967
 Release:	2
 Summary:	Place boxes at arbitrary positions on the LaTeX page
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/textpos
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/textpos
 License:	GPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/textpos.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/textpos.doc.r%{version}.tar.xz
